@@ -1,0 +1,13 @@
+public class SpeedConverter {
+
+    public static void printMegaBytesAndKiloBytes(int kilobytes){
+
+        int megabytes = kilobytes / 1024;
+        int remainingKilobytes = 1024 % megabytes;
+        System.out.println(kilobytes + "KB = " + megabytes + "MB and" + remainingKilobytes);
+    }
+}
+"C:\Program Files\Java\jdk-15.0.1\bin\java.exe" "-javaagent:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=52187:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\nadiy\IdeaProjects\SpeedConverter\out\production\SpeedConverter Main
+4700KB = 4MB and 0
+
+Process finished with exit code 0
